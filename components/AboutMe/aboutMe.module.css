@@ -43,6 +43,24 @@
   padding-right: 0.7rem;
 }
 
+.blog_link_container {
+  padding: 1.5rem 1rem 0;
+}
+
+.blog_link {
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: #000;
+  text-decoration: none;
+  letter-spacing: 0.04rem;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
+}
+
+.blog_link:hover {
+  opacity: 0.6;
+}
+
 
 @media only screen and (min-width: 768px) {
   .desc_link_container {

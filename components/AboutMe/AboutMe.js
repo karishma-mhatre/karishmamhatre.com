@@ -1,5 +1,6 @@
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 import ImageLink from '../ImageLink';
 
@@ -27,6 +28,9 @@ const AboutMe = () => {
               return <ImageLink key={title} href={link} imageSrc={imageSrc} title={title} className={styles.social_link} rel='nofollow' target='_blank' imageWidth={24} imageHeight={24}/>
             })
           }
+        </div>
+        <div className={styles.blog_link_container}>
+          <Link href="/blog"><a className={styles.blog_link}>Read my blog</a></Link>
         </div>
       </div>
     </div>

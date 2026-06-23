@@ -1,0 +1,78 @@
+.container {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.header {
+  margin-bottom: 3rem;
+}
+
+.header a {
+  font-size: 0.9rem;
+  color: #555;
+  text-decoration: none;
+  letter-spacing: 0.03rem;
+}
+
+.header a:hover {
+  color: #000;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1rem 0 0.4rem;
+  letter-spacing: 0.04rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #666;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  border: 1px solid #e8e8e8;
+  box-shadow: 4px 4px 20px 0px #d0d0d0;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 4px 4px 28px 0px #b8b8b8;
+}
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.postTitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 0.4rem;
+}
+
+.date {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #888;
+  letter-spacing: 0.03rem;
+}
+
+.summary {
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: #555;
+  margin: 0.7rem 0 0;
+  line-height: 1.6;
+}
